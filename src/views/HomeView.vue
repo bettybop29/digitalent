@@ -60,7 +60,7 @@ h2 {
   align-items: center;
   margin: 10px;
   text-align: left;
-  
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
 }
 .card-title {
   text-align: left;
