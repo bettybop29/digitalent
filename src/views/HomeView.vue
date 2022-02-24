@@ -1,30 +1,41 @@
 <template>
   <div class="home">
     <h1>Find The Best Fit <br> For Your Team</h1>
-    <img alt="Vue logo" src="../assets/logo.png">      
+    <img alt="Vue logo" src="../assets/banner.png">      
   </div>
   <h2>How can we help your business</h2>
   <div class="main-card">
     <div class="card">
+      <img src="../assets/icon/CREDIT.svg" alt="">
       <div class="card-title">Credits</div>
       <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Aliquam tenetur accusantium earum ab nisi aut,
         Id, veniam provident autem est quam enim.</P>
     </div>
     <div class="card">
-      <div class="card-title">Credits</div>
+      <img src="../assets/icon/POSTJOB.svg" alt="">
+      <div class="card-title">Post Jobs</div>
       <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Aliquam tenetur accusantium earum ab nisi aut,
         Id, veniam provident autem est quam enim.</P>
     </div>
     <div class="card">
-      <div class="card-title">Credits</div>
+      <img src="../assets/icon/INTERVIEW.svg" alt="">
+      <div class="card-title">interview Schedule</div>
       <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Aliquam tenetur accusantium earum ab nisi aut,
         Id, veniam provident autem est quam enim.</P>
     </div>
   </div>
   <h2>Our Satisfied Partners</h2>
+  <div class="sponsor">
+    <img src="../assets/sponsor/BNI.png" alt="">
+    <img src="../assets/sponsor/KAO.png" alt="">
+    <img src="../assets/sponsor/TIX.png" alt="">
+    <img src="../assets/sponsor/DENTSU.png" alt="">
+    <img src="../assets/sponsor/SHARP.png" alt="">
+    <img src="../assets/sponsor/ANA.png" alt="">
+  </div>
 </template>
 
 <script>
@@ -46,14 +57,17 @@ export default {
 }
 h1 {
   text-align: left;
-  margin-left: 30px;
+  margin-left: 40px;
+  font-size: 50px;
 }
 h2 {
   padding-top: 30px;
+  font-size: 35px;
 }
 .card {
-  background-color: aqua;
-  width: 200px;
+  background-color: #101419;
+  width: 300px;
+  height: 300px;
   border-radius: 20px;
   color: white;
   padding: 20px;
@@ -66,6 +80,11 @@ h2 {
   text-align: left;
   margin: 0px;
   font-weight: bolder;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.card img {
+  width: 50px;
 }
 .main-card {
   display: flex;
