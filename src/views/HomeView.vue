@@ -54,6 +54,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   margin: 20px;
+  background-color: red;
 }
 h1 {
   text-align: left;
@@ -61,8 +62,9 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  padding-top: 30px;
+  padding-top: 50px;
   font-size: 35px;
+  
 }
 .card {
   background-color: #101419;
@@ -91,6 +93,9 @@ h2 {
   flex-direction: row;
   margin: 20px;
   justify-content: center;
+}
+.sponsor img{
+  margin: 20px;
 }
 
 </style>
