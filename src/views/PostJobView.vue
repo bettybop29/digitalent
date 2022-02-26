@@ -1,5 +1,5 @@
 <template>
   <div class="postjob">
-    <h1>This is an about page</h1>
+    <h1>This is an postjob page</h1>
   </div>
 </template>

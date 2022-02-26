@@ -1,9 +1,13 @@
 <template>
+<div class="bg-blue-white">
   <div class="home">
     <h1>Find The Best Fit <br> For Your Team</h1>
     <img alt="Vue logo" src="../assets/banner.png">      
   </div>
+  
   <h2>How can we help your business</h2>
+  </div>
+  <div class="bg-black-blue">
   <div class="main-card">
     <div class="card">
       <img src="../assets/icon/CREDIT.svg" alt="">
@@ -27,6 +31,8 @@
         Id, veniam provident autem est quam enim.</P>
     </div>
   </div>
+  </div>
+  <div class="bg-black">
   <h2>Our Satisfied Partners</h2>
   <div class="sponsor">
     <img src="../assets/sponsor/BNI.png" alt="">
@@ -35,6 +41,7 @@
     <img src="../assets/sponsor/DENTSU.png" alt="">
     <img src="../assets/sponsor/SHARP.png" alt="">
     <img src="../assets/sponsor/ANA.png" alt="">
+  </div>
   </div>
 </template>
 
@@ -53,8 +60,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px;
-  background-color: red;
+  margin: 0;
+  
 }
 h1 {
   text-align: left;
@@ -62,12 +69,14 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  padding-top: 50px;
+  padding-top: 90px;
   font-size: 35px;
+  padding-bottom: 40px;
+  color: white;
   
 }
 .card {
-  background-color: #101419;
+  background-color: #0A0F16;
   width: 300px;
   height: 300px;
   border-radius: 20px;
@@ -84,6 +93,7 @@ h2 {
   font-weight: bolder;
   font-size: 25px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .card img {
   width: 50px;
@@ -96,6 +106,18 @@ h2 {
 }
 .sponsor img{
   margin: 20px;
+}
+
+/* colorbg-gradient */
+
+.bg-black {
+  background: #101419;
+}
+.bg-black-blue {
+  background-image: linear-gradient(#2E2E78,#101419 );
+}
+.bg-blue-white {
+  background-image: linear-gradient(white,#2e2e78 );
 }
 
 </style>
