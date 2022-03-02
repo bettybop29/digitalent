@@ -13,26 +13,23 @@
     <div class="card">
       <img src="../assets/icon/CREDIT.svg" alt="">
       <div class="card-title">Credits</div>
-      <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Aliquam tenetur accusantium earum ab nisi aut,
-        Id, veniam provident autem est quam enim. veniam provident autem est quam enim.
-        veniam provident autem est quam enim.veniam provident autem est quam enim.</P>
+      <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea cumque rem harum molestias 
+        fugit labore vel mollitia, alias esse reiciendis. Voluptatibus ut dolor assumenda sequi eos, 
+        a inventore libero facere?</P>
     </div>
     <div class="card">
       <img src="../assets/icon/POSTJOB.svg" alt="">
       <div class="card-title">Post Jobs</div>
-      <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Aliquam tenetur accusantium earum ab nisi aut,
-        Id, veniam provident autem est quam enim.autem est quam enim. veniam provident autem est quam enim.
-        veniam provident autem est quam enim.veniam provident autem est quam enim.</P>
+      <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea cumque rem harum molestias 
+        fugit labore vel mollitia, alias esse reiciendis. Voluptatibus ut dolor assumenda sequi eos, 
+        a inventore libero facere?</P>
     </div>
     <div class="card">
       <img src="../assets/icon/INTERVIEW.svg" alt="">
       <div class="card-title">interview Schedule</div>
-      <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Aliquam tenetur accusantium earum ab nisi aut,
-        Id, veniam provident autem est quam enim.autem est quam enim. veniam provident autem est quam enim.
-        veniam provident autem est quam enim.veniam provident autem est quam enim.</P>
+      <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea cumque rem harum molestias 
+        fugit labore vel mollitia, alias esse reiciendis. Voluptatibus ut dolor assumenda sequi eos, 
+        a inventore libero facere?</P>
     </div>
   </div>
   
@@ -96,6 +93,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   margin: 0;
+  margin-top: 50px;
 }
 .home img {
   margin-right: 30px;
